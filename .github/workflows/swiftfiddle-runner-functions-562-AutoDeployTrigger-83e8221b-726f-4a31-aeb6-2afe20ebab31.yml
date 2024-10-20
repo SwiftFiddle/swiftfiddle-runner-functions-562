@@ -41,7 +41,7 @@ jobs:
           registryPassword: ${{ secrets.SWIFTFIDDLERUNNERFUNCTIONS562_REGISTRY_PASSWORD }}
           containerAppName: swiftfiddle-runner-functions-562
           resourceGroup: swiftfiddle
-          imageToBuild: kishikawakatsumi/swiftfiddle-runner-functions-562:${{ github.sha }}
+          imageToBuild: swiftfiddle/swiftfiddle-runner-functions-562:latest
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
